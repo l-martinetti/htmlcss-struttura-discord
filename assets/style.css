@@ -8,16 +8,25 @@
 .debug {
     background-color: rgba(255,0,0,0.3);
     min-height: 80px;
+    border: 1px solid black;
 }
+
+button {
+    width: 10px;
+}
+
+/*********** utils ***********/
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*********** nav bar header ***********/
 
 header {
     width: 100%;
-}
-
-.container {
-    width: 60%;
-    min-width: 100px;
-    margin: 0 auto;
 }
 
 header div {
@@ -27,9 +36,21 @@ header div {
 header div:first-child {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header div:last-child {
     text-align: center;
-    padding-top: 60px;
+    padding: 60px 0;
 }
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li a {
+    padding: 20px;
+}
+
+/*********** main ***********/
