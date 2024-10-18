@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*********** da cancellare ***********/
+.debug {
+    background-color: rgba(255,0,0,0.3);
+    min-height: 80px;
+}
+
+header {
+    width: 100%;
+}
+
+.container {
+    width: 60%;
+    min-width: 100px;
+    margin: 0 auto;
+}
+
+header div {
+    padding: 20px;
+}
+
+header div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div:last-child {
+    text-align: center;
+    padding-top: 60px;
+}
